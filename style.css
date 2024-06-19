@@ -1,0 +1,126 @@
+
+
+ /* Estilos generales */
+
+/* Importación de fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+/* Estilos generales del cuerpo del documento */
+body {
+    background: #f6f5f7; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    padding-top: 70px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos del título principal */
+h1 {
+    margin-top: 0;
+}
+
+/* Estilos comunes para todos los subtítulos h2 */
+h2 {
+    margin-bottom: 10px;
+    color: blue; /* Color azul para todos los h2 */
+}
+
+/* Estilos del menú de navegación */
+nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Estilos de los enlaces del menú */
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Estilos al pasar el mouse por encima de los enlaces del menú */
+nav a:hover {
+    background-color: #ddd;
+}
+
+/* Estilos del contenido principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos para cada sección */
+
+/* Acerca de mí */
+#Acerca_de_mi p {
+    text-align: justify;
+}
+
+/* Habilidades */
+#Habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Experiencia */
+#Experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Experiencia ul li {
+    margin-bottom: 10px;
+}
+
+#Experiencia ul li strong {
+    font-weight: bold;
+}
+
+/* Proyectos */
+#Proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Proyectos ul li {
+    margin-bottom: 10px;
+}
+
+#Proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#Proyectos ul li a:hover {
+    text-decoration: underline;
+}
